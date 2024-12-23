@@ -1,0 +1,8 @@
+{
+    "name": "webdelta/customimagefield",
+    "autoload": {
+      "psr-4": {
+        "WebdeltaCustomImageField\\": "src/"
+      }
+    }
+  }

@@ -1,0 +1,6 @@
+services:
+  webdeltacustomimagefield.form.extension.cms_page:
+    class: WebdeltaCustomImageField\Form\Extension\CmsPageFormExtension
+    tags:
+      - { name: form.type_extension, extended_type: PrestaShopBundle\Form\Admin\Sell\Page\CmsPageType }
+    public: true
